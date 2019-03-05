@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+
 import Navbar from './components/navbar';
+import ShoppingList from './components/ShoppingList';
 
 
 class App extends Component {
@@ -11,6 +13,7 @@ class App extends Component {
     return (
       <div className="App">
           <Navbar />
+          <ShoppingList />
       </div>
     );
   }
